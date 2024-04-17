@@ -1,0 +1,72 @@
+.mimascota {
+    text-align: center;
+    padding: 20px;
+}
+
+.mimascota h2 {
+    Font-family: Cat Comic, cursive;
+    font-size: 40px;
+    color: #333;
+}
+
+.mimascota p {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-weight: 600;
+}
+
+.cuadros {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cuadro {
+    width: 300px; 
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    overflow:hidden;
+    height: auto;
+}
+
+.cuadro img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.cuadro h3 {
+    font-weight: 100;
+    Font-family: Cat Comic, cursive;
+    font-size: 20px;
+    color: #414141;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.cuadro p {
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.leermas {
+    Font-family: Cat Comic, cursive;
+    color: #606060;
+    text-decoration: underline;
+    justify-content: left;
+    text-align: left;
+}
+
+.leermas:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+.dosvideos {
+    background-color: #ebb216; 
+    text-align: center; 
+}
+
+.dosimagenes {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.dosimagenes img {
+    margin: 20px; 
+    width: 600px;
+    height: 500px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}

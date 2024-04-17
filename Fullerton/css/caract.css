@@ -1,0 +1,17 @@
+.titulo{
+    text-align: center;
+}
+
+.titulo h1{
+    Font-family: Cat Comic, cursive;
+    font-size: 60px;
+    color: rgb(73, 73, 73);
+
+}
+
+.titulo p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(53, 53, 53);
+    font-size: large;
+    margin-bottom: 80px;
+}

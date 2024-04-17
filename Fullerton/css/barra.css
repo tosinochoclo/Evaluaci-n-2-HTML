@@ -1,0 +1,25 @@
+
+.top-bar {
+    background-color: rgb(255, 210, 31);
+    padding: 5px;
+    min-height: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+
+.top-bar .container {
+    display: flex;
+    margin: 5px;
+}
+
+.top-bar .container .callcenter {
+    margin-right: auto;
+}
+
+.top-bar .container div{
+    margin-left: 20px;
+}
+
