@@ -1,0 +1,77 @@
+.nuestras-marcas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(239, 239, 239);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contenido {
+    display: flex;
+    align-items: left;
+}
+
+.texto {
+    margin-right: 20px;
+}
+
+.texto h2 {
+    margin-right: 10px;
+    font-size: 60px;
+    Font-family: Cat Comic, cursive;
+    color: rgb(74, 74, 74);
+    margin-bottom: 10px;
+    left: 200px;
+}
+
+.texto p {
+    margin-right: 60px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(94, 94, 94)
+}
+
+.ver-marcas {
+    margin: auto;
+    Font-family: Cat Comic, cursive;
+    background-color: #e2bb10;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,100px);  
+    grid-template-rows: repeat(3,100px); 
+    grid-gap:90px;
+    margin: auto;
+
+}
+
+.grid-item{
+    padding:10px;
+    width: 200px;
+    height: 200px;
+}
+
+.grid-item img{
+    width: 150px;
+    background-color: white;
+}
+
+
+.gato {
+    padding: 10px;
+    display: flex;
+    height: 700px; 
+    margin-left: auto;
+    margin-bottom: -100px;
+}
+

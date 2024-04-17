@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Cat Comic";
+    src: url("Cat Comic.ttf");
+}
+
+.intro{
+    background-image: url("../img/intro1.jpg");
+    width: auto;
+	height: 900px;
+	object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.intro .intro_h1 {
+    text-shadow: 1px 2px 0 black;
+    Font-family: Cat Comic, cursive;
+    font-weight: 400;
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.intro .intro_h3 {
+    font-weight: 800;
+    margin-left: 100px;
+    color: white;
+    Font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.btn-1{
+    padding: 20px 30px;
+    margin-left: 100px;
+    background-color: #ecc608;
+    color: rgb(67, 67, 67);
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-1:hover{
+    background-color: #c8b30d;
+}
+    

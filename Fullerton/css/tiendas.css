@@ -1,0 +1,60 @@
+.tiendas {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagenperro {
+    
+    background-image: url('../img/fondoperro.png');
+    background-size: cover;
+    background-position: left center;
+    height: 800px;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    flex:1;
+}
+
+.visita {
+    background-color: rgb(255, 200, 35);
+    flex: 2;
+    padding: 20px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    justify-content: center; 
+}
+
+.visita h2 {
+    font-family: Super Toast Personal Use, cursive;
+    font-size: 40px;
+    color: rgb(55, 55, 55);
+    margin: 10px;
+}
+
+.visita p {
+    text-align: left;
+    color: rgb(76, 76, 76);
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botonconocer {
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 200px;
+    font-size: large;
+    font-family: Super Toast Personal Use, cursive;
+
+}
+
+.botonconocer:hover {
+    background-color: #555;
+}
